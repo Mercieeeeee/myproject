@@ -3,9 +3,13 @@ package com.Mercieeeeee;
 public class Hello {
     public static void main(String[] args) {
 //        System.out.println("Hello world");
-        Person p = new Person();
+        Person p = new Person("Mercieeeeee",66.5f, 1.7f);
         p.hello();
-        int age = 19;
+        p.weight = 66.5f;
+        p.height = 1.7f;
+        System.out.println(p.bmi());
+
+        /*int age = 19;
         Integer age2 = 19;
         char c = '我';
         Character c2 = 'A';
@@ -17,6 +21,6 @@ public class Hello {
         boolean adult = true;
         boolean enroll = false;
 //        Boolean;
-        String name = "Mercieeeeee";
+        String name = "Mercieeeeee";*/
     }
 }
